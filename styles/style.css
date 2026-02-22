@@ -1,0 +1,29 @@
+body {
+  font-family: 'Courier New', Courier, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-color: darkgray;
+  color: white;
+  padding: 16px;
+  margin-top: 0;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.recipe-container {
+  list-style-type: none;
+  width: 300px;
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+}
+
+.recipe {
+  background-color: burlywood;
+  padding: 16px;
+  border: black solid;
+  margin: 8px;
+}
