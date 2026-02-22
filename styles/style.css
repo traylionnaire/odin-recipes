@@ -1,3 +1,8 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+/* Home Page */
 body {
   font-family: 'Courier New', Courier, Arial;
   margin: 0;
@@ -22,8 +27,52 @@ body {
 }
 
 .recipe {
+  margin: 10px;
+}
+
+.recipe-link {
+  display: block;
   background-color: burlywood;
   padding: 16px;
   border: black solid;
-  margin: 8px;
+}
+
+
+/* recipe page */
+.main-container {
+  margin: 0px auto;
+  width: 800px;
+  padding: 20px;
+  padding-top: 1px;
+}
+
+.recipe-name {
+  border: 3px black solid;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.home {
+  background-color: bisque;
+  width: 200px;
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.image {
+  margin: 0px 50px;
+  /* padding: 0px 50px; */
+}
+
+
+.credit {
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
 }
